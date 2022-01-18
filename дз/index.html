@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #container {
+        position: absolute;
+        display: none;
+        left: 40%;
+        grid-template-columns: 100px 100px 100px;
+        grid-template-rows: 100px 100px 100px;
+        border: 1px solid black;
+    }
+    #container2{
+        position: absolute;
+        display: none;
+        left: 40%;
+        grid-template-columns: 100px 100px 100px;
+        grid-template-rows: 100px 100px 100px;
+        border: 1px solid black;
+    }
+    .box2{
+        background-image: url(./photo/1.jpg);
+    }
+    .box2:nth-child(1){
+        background-image: url(./photo/1.jpg);
+    }
+    .box2:nth-child(2){
+        background-image: url(./photo/2.jpg);
+    }
+    .box2:nth-child(3){
+        background-image: url(./photo/3.jpg);
+    }
+    .box2:nth-child(4){
+        background-image: url(./photo/4.jpg);
+    }
+    .box2:nth-child(5){
+        background-image: url(./photo/5.jpg);
+    }
+    .box2:nth-child(6){
+        background-image: url(./photo/6.jpg);
+    }
+    .box2:nth-child(7){
+        background-image: url(./photo/7.jpg);
+    }
+    .box2:nth-child(8){
+        background-image: url(./photo/8.jpg);
+    }
+    .box2:nth-child(9){
+        background-image: url(./photo/9.jpg);
+    }
+</style>
+
+<body id='body'>
+    <h1 onclick='onColor()'>Колір</h1>
+    <h2 onclick="onImage()">Зображення</h2>
+    <div id='container'>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+    <div id='container2'>
+        <div class="box2 "></div>
+        <div class="box2 "></div>
+        <div class="box2 "></div>
+        <div class="box2 "></div>
+        <div class="box2 "></div>
+        <div class="box2 "></div>
+        <div class="box2 "></div>
+        <div class="box2 "></div>
+        <div class="box2 "></div>
+    </div>
+    <script src='script.js'></script>
+</body>
+
+</html>
